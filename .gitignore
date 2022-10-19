@@ -1,0 +1,8 @@
+node_modules/
+src/
+vendor/
+package-lock.json
+package.json
+gulpfile.json
+.env
+bienesraices_crud.sql

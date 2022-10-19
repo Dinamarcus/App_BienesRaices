@@ -1,0 +1,23 @@
+{
+    "name": "usuario/bienes-raices-php",
+    "description": "Proyecto con POO en PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dinamarcus",
+            "email": "facadimarco@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    },
+    "require": {
+        "intervention/image": "2.5",
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
